@@ -1,0 +1,25 @@
+<div class="main-container">
+  <div class="container">
+    <div *ngFor="let data of cardDatas$ | async">
+      <div class="thumbnail">
+        <img src="{{ data.image }}" alt="business" />
+        <div [ngClass]="data.video ? 'caption' : 'caption2'">
+          <div>
+            <h3>
+              {{ data.title }}
+            </h3>
+            <div (click)="openDialog(data.videoData)">
+              <span
+                *ngIf="data.video"
+                class="material-symbols-outlined play-btn"
+              >
+                play_circle
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button mat-flat-button (click)="loadMoreData()">Primary</button>
+</div>

@@ -1,0 +1,32 @@
+{
+  "cardDatas": [
+    {
+      "id": 1,
+      "title": "Direct Investment | How We Invest",
+      "video": true,
+      "videoData": "https://www.youtube.com/embed/P8upKEsCyU4",
+      "image": "https://www.northeastern.edu/graduate/blog/wp-content/uploads/2019/05/whatdoesabusinessanalystdo_FB.jpg"
+    },
+    {
+      "id": 2,
+      "title": "EQT Privare Equity and alswfge to acquire Envirotainer, the leading global provider of Mission-critical Biopharma Trasnsport Services",
+      "video": false,
+      "videoData": "",
+      "image": "https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg?w=2000"
+    },
+    {
+      "id": 3,
+      "title": "Direct Investment | How We Invest",
+      "video": true,
+      "videoData": "https://www.youtube.com/embed/Sulo6wF24tg",
+      "image": "https://cloudinary.hbs.edu/hbsit/image/upload/s--Fm3oHP0m--/f_auto,c_fill,h_375,w_750,/v20200101/79015AB87FD6D3284472876E1ACC3428.jpg"
+    },
+    {
+      "id": 4,
+      "title": "EQT Privare Equity and alswfge to acquire Envirotainer, the leading global provider of Mission-critical Biopharma Trasnsport Services",
+      "video": false,
+      "videoData": "",
+      "image": "https://img.freepik.com/free-vector/pie-chart-infographic_23-2147495005.jpg?w=2000"
+    }
+  ]
+}
